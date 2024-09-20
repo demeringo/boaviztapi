@@ -8,10 +8,12 @@ on:
     paths:
       - 'boaviztapi/**'
       - 'tests/**'
+      - 'poetry.lock'
   pull_request:
     paths:
       - 'boaviztapi/**'
       - 'tests/**'
+      - 'poetry.lock'
     branches:
       - main
       - dev
